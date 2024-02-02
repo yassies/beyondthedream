@@ -146,7 +146,8 @@ main {
   gap: 16px;
   flex-direction: column;
   align-items: center;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #clouds::before {
@@ -226,6 +227,7 @@ article {
 .scroll-to-btn-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 8px;
 }
 
