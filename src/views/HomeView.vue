@@ -22,7 +22,7 @@
       <article ref="scrollToElement">
         <div class="dropdown-containers">
           <h1>
-            I know that people are probably going to scroll to their own messages, so feel free to click on the dropdowns to go to your message :kohanewonder:
+            I know that people are probably going to scroll to their own messages, so feel free to click on the dropdowns to go to the messages :kohanewonder:
           </h1>
           <div class="scroll-to-btn-container">
             <button

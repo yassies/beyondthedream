@@ -8,9 +8,6 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  optimizeDeps: {
-    exclude: ['@vueuse/motion']
-  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

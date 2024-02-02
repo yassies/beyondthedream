@@ -1,8 +1,8 @@
 import './assets/main.css';
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import { MotionPlugin } from '@vueuse/motion';
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import { MotionPlugin } from '../node_modules/@vueuse/motion/dist/index';
 
 import App from './App.vue'
 import router from './router'
@@ -14,4 +14,4 @@ app.use(MotionPlugin)
 app.use(createPinia())
 app.use(router)
 
-app.mount('#app')
+app.mount('#app');
