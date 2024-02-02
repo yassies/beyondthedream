@@ -225,6 +225,7 @@ article {
 
 .scroll-to-btn-container {
   display: flex;
+  flex-direction: column;
   gap: 8px;
 }
 
