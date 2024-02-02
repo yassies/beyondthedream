@@ -93,10 +93,6 @@ const managers = {
         As I had mentioned earlier to Panini, I'm glad that Seri kidnapped you to be a monitor here! I know that it might've been hard to get the hours for monitoring, but thank you for the ones you did! Also thank you so much for VC filling as well, the Enstars conversations were definitely entertaining and the readalong to Sudden Death was definitely nice as well! Though I will admit that I was falling asleep to your Ritsu voice LOL, anyways. Good luck with your future tiers, I'll be there to support you during the VS Event :nyalovepls:.
       `,
     },
-    oli: {
-      name: 'Oli',
-      letter: ``,
-    },
     emai: {
       name: 'Emai',
       letter: `
@@ -106,7 +102,7 @@ const managers = {
     clam: {
       name: 'Clam',
       letter: `
-        Clam, I'm not gonna lie, I was really surprised that you were offering to monitor for me!
+        Clam, I'm not gonna lie, I was really surprised that you were offering to monitor for me! Glad to know that fellow Enstarries stick together LOL. Thank you for monitoring for me, as well as keeping me awake during the hours where I definitely was falling asleep in. I'll be coming to tier on JP for MMJ World Link, so I hope to be able to tier/fill for you then! 
       `,
     },
   },
