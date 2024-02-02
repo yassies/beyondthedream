@@ -146,8 +146,7 @@ main {
   gap: 16px;
   flex-direction: column;
   align-items: center;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 #clouds::before {
