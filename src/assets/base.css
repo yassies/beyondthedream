@@ -1,0 +1,74 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --clr-text-light: #41393E;
+  --clr-text-dark: #E9EAEC;
+
+  --clr-tint-dark: rgb(65, 57, 62, 0.7); /*#41393E;*/
+  --clr-tint-light: rgb(211, 212, 217, 0.7); /*#D3D4D9;*/
+
+  --clr-bg: #007CED;
+  --clr-bg-bottom: #cce7ff;
+
+  --clr-dark-blue: #6A9EC8;
+
+  --clr-hokke: #0068B7;
+  --clr-haruka: #99CDFF;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-text: var(--clr-text-light);
+  --color-bg-tint: var(--clr-tint-light);
+  --text-shadow: var(--clr-text-dark);
+  --btn-hover: var(--clr-tint-dark);
+
+  --goto-btn-hover: var(--clr-hokke);
+  --goto-text-hover: var(--clr-text-dark);
+
+  --dropdown-bg: var(--clr-haruka);
+  --dropdown-btn-hover: var(--clr-hokke);
+  --dropdown-text-hover: var(--clr-text-dark);
+  --dropdown-btn-active: var(--clr-bg);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: var(--clr-text-dark);
+    --color-bg-tint: var(--clr-tint-dark);
+    --text-shadow: var(--clr-text-light);
+    --btn-hover: var(--clr-tint-light);
+
+    --goto-btn-hover: var(--clr-haruka);
+    --goto-text-hover: var(--clr-text-light);
+  
+    --dropdown-bg: var(--clr-hokke);
+    --dropdown-btn-hover: var(--clr-haruka);
+    --dropdown-text-hover: var(--clr-text-light);
+    --dropdown-btn-active: var(--clr-bg-bottom);
+  }
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  color: var(--color-text);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  background-color: var(--clr-bg);
+	background: linear-gradient(to bottom, var(--clr-bg) 1%, var(--clr-bg-bottom) 100%) no-repeat;
+  background-attachment: fixed;
+}
