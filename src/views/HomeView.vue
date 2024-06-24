@@ -137,10 +137,10 @@ main {
   position: relative;
   height: 100%;
   width: 100%;
-  background: url(https://static.radulescu.me/examples/clouds/clouds1000.png);
-  background: url(https://static.radulescu.me/examples/clouds/clouds1000.png) 0 200px,
-              url(https://static.radulescu.me/examples/clouds/clouds1200_1.png) 0 300px,
-              url(https://static.radulescu.me/examples/clouds/clouds1000_blur3.png) 100px 250px;
+  background: url(../assets/clouds1000.png);
+  background: url(../assets/clouds1000.png) 0 200px,
+              url(../assets/clouds1200_1.png) 0 300px,
+              url(../assets/clouds1000_blur3.png) 100px 250px;
 	animation: wind 20s linear infinite;
   display: flex;
   gap: 16px;
